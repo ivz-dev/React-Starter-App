@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "server": "webpack-dev-server",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "yarn run build && node server.js"
   },
   "dependencies": {
     "express": "^4.16.2",
